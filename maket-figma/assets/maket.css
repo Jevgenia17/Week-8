@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Intro";
+    src: url(./pictures/intro/intro.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+}
+
+.header__top {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 76px;
+    padding-right: 60px;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    background: #5222D0;
+    border-radius: 100px;
+    Width: 120px;
+    Height: 40px;
+}
+
+.header__btn__text {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.header__btn__img {
+    Width: 15px;
+    Height: 15px;
+    margin-top: 0px;
+}
+
+.section__heder__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.heder__info {
+    padding-top: 90px;
+    padding-left: 126px;
+}
+
+.header__info__h1 {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.header__info__text {
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.header__info__img {
+    width: 1100px;
+    height: 800px;
+}
+
+.header__info__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5222D0;
+    border-radius: 100px;
+    width: 260px;
+    height: 84px;
+}
+
+.header__info__btn__text {
+    font-family: "Intro";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.header__info__btn__img {
+    width: 42px;
+    height: 30px;
+    margin-left: 16px;
+}
+
+.img {
+    width: 1200px;
+    height: 725px;
+}
+
+.footer {
+    padding-left: 50px;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #5222D0;
+
+}
+
+.menu__item {
+    margin: 35px;
+}

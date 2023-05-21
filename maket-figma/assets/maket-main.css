@@ -1,0 +1,190 @@
+@font-face {
+    font-family: "Intro";
+    src: url(./pictures/intro/intro.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+}
+
+
+.header__top {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    background: #5222D0;
+    border-radius: 100px;
+    Width: 120px;
+    Height: 40px;
+}
+
+.header__btn__text {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.header__btn__img {
+    Width: 15px;
+    Height: 15px;
+    margin-top: 0px;
+}
+
+.main {
+    padding-top: 102px;
+}
+
+.main__h1 {
+    font-family: "Intro";
+    font-size: 60px;
+    line-height: 32px;
+    color: #000000;
+    padding-left: 125px;
+}
+
+.main__section__1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    padding-left: 92px;
+}
+
+.main__section__2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    padding-left: 80px;
+}
+
+.card__border {
+    box-sizing: border-box;
+    border: 1px solid rgba(187, 34, 71, 1);
+    width: 440px;
+    height: 550px;
+}
+
+.card__img {
+    margin-top: 26px;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-self: center;
+    width: 365px;
+    height: 233px;
+}
+
+.main__section__card__h1 {
+    font-family: "Intro";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+.main__section__card__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 40px;
+    margin-right: 35px;
+}
+
+.main__section__card__border {
+    box-sizing: border-box;
+    border: 1px solid rgba(187, 34, 71, 1);
+    width: 440px;
+    height: 260px;
+}
+
+.main__section__email {
+    border: 1px solid rgba(187, 34, 71, 1);
+    background: #EC615B;
+    width: 365px;
+    height: 230px;
+    padding: 20px 25px;
+    margin-left: 50px;
+}
+
+.main__section__email__h1 {
+    font-family: "Intro";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+input {
+    width: 323px;
+    height: 50px;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.email__btn {
+    padding-top: 23px;
+}
+
+.main__section__email__btn {
+    background: #5222D0;
+    border-radius: 100px;
+    width: 135px;
+    height: 38px;
+}
+
+.main__section__email__btn__text {
+    font-family: "Intro";
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+
+}
+
+.menu__item {
+    margin: 35px;
+}
